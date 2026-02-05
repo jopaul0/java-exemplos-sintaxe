@@ -1,4 +1,4 @@
-package org.jopaul0.arraylist.listatarefa;
+package org.jopaul0.collections.list.listatarefa;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.jopaul0.contabanco;
+package org.jopaul0.basic.contabanco;
 
 import java.util.Scanner;
 

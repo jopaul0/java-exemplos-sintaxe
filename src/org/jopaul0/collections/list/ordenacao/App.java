@@ -1,4 +1,4 @@
-package org.jopaul0.arraylist.ordenacao;
+package org.jopaul0.collections.list.ordenacao;
 
 public class App {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.jopaul0.arraylist.catalogolivros;
+package org.jopaul0.collections.list.catalogolivros;
 
 import java.util.ArrayList;
 import java.util.List;

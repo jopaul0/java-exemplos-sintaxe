@@ -1,4 +1,4 @@
-package org.jopaul0.arraylist.ordenacao;
+package org.jopaul0.collections.list.ordenacao;
 
 public class Pessoa implements Comparable<Pessoa> {
     private String nome;

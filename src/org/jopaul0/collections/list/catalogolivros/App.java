@@ -1,4 +1,4 @@
-package org.jopaul0.arraylist.catalogolivros;
+package org.jopaul0.collections.list.catalogolivros;
 
 public class App {
     public static void main(String[] args) {
