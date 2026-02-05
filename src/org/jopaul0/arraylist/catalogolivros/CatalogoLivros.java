@@ -7,7 +7,9 @@ public class CatalogoLivros {
     private List<Livro> livros = new ArrayList<>();
 
     // Construtores
-    public CatalogoLivros() {}
+    public CatalogoLivros() {
+    }
+
     public CatalogoLivros(List<Livro> livros) {
         this.livros = livros;
     }
@@ -16,6 +18,7 @@ public class CatalogoLivros {
     public List<Livro> getLivros() {
         return this.livros;
     }
+
     public void setLivros(List<Livro> livros) {
         this.livros = livros;
     }
@@ -33,10 +36,12 @@ public class CatalogoLivros {
         return this.livros.size();
     }
 
-    public Livro buscarLivroPorTitulo(String titulo){
-        for (Livro livro : this.livros){
-            if (livro.getTitulo().equalsIgnoreCase(titulo)){
-                return livro;
+    public Livro buscarLivroPorTitulo(String titulo) {
+        if (!this.livros.isEmpty()) {
+            for (Livro livro : this.livros) {
+                if (livro.getTitulo().equalsIgnoreCase(titulo)) {
+                    return livro;
+                }
             }
         }
         return null;
